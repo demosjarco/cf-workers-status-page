@@ -30,26 +30,26 @@ monitors:
     expectStatus: 200
     linkable: false
 
-  - id: fdb-extension
-    name: FDB Extension
-    url: 'https://missions.fortnitedb.com/video-component.html'
-    method: GET
-    expectStatus: 200
-    linkable: false
+  # - id: fdb-extension
+  #   name: FDB Extension
+  #   url: 'https://missions.fortnitedb.com/video-component.html'
+  #   method: GET
+  #   expectStatus: 200
+  #   linkable: false
   
-  - id: fdb-extension-backend
-    name: FDB Extension Backend
-    url: 'https://missions.fortnitedb.com/socket.io/?EIO=4&transport=websocket'
-    method: GET
-    expectStatus: 400
-    linkable: false
+  # - id: fdb-extension-backend
+  #   name: FDB Extension Backend
+  #   url: 'https://missions.fortnitedb.com/socket.io/?EIO=4&transport=websocket'
+  #   method: GET
+  #   expectStatus: 400
+  #   linkable: false
   
-  - id: fdb-extension-cdn
-    name: FDB Extension CDN - Backblaze B2
-    url: 'https://b2.fortnitedb.com/file/PeepoT/a.png'
-    method: GET
-    expectStatus: 200
-    linkable: false
+  # - id: fdb-extension-cdn
+  #   name: FDB Extension CDN - Backblaze B2
+  #   url: 'https://b2.fortnitedb.com/file/PeepoT/a.png'
+  #   method: GET
+  #   expectStatus: 200
+  #   linkable: false
   
   - id: mc-peyton-batmanning
     name: Minecraft - Peyton Batmanning
