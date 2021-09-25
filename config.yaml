@@ -24,8 +24,7 @@ monitors:
     linkable: true
 
   - id: main-cdn
-    name: CDN
-    description: 'Backblaze B2 CDN'
+    name: CDN - Backblaze B2
     url: 'https://b2.demosjarco.dev/file/demosjarco-portfolio/mcmaps/overviewer.js'
     method: GET
     expectStatus: 200
@@ -46,8 +45,7 @@ monitors:
     linkable: false
   
   - id: fdb-extension-cdn
-    name: FDB Extension CDN
-    description: 'Backblaze B2 CDN'
+    name: FDB Extension CDN - Backblaze B2
     url: 'https://b2.fortnitedb.com/file/PeepoT/a.png'
     method: GET
     expectStatus: 200
