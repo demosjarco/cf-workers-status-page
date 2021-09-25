@@ -50,3 +50,24 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: false
+  
+  - id: mc-peyton-batmanning
+    name: Minecraft - Peyton Batmanning
+    url: 'https://api.mcsrvstat.us/simple/games.demosjarco.dev'
+    method: GET
+    expectStatus: 200
+    linkable: false
+  
+  - id: mc-dedidated-minecwaft-sewvew
+    name: Minecraft - Dedidated Minecwaft Sewvew
+    url: 'https://api.mcsrvstat.us/simple/games.demosjarco.dev:31339'
+    method: GET
+    expectStatus: 200
+    linkable: false
+  
+  - id: mc-legit
+    name: Minecraft - Legit
+    url: 'https://api.mcsrvstat.us/simple/games.demosjarco.dev:34323'
+    method: GET
+    expectStatus: 200
+    linkable: false
