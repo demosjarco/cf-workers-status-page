@@ -26,7 +26,7 @@ monitors:
   - id: main-cdn
     name: CDN
     description: 'Backblaze B2 CDN'
-    url: 'https://b2.demosjarco.dev/file/minecraft-maps/overviewer.js'
+    url: 'https://b2.demosjarco.dev/file/demosjarco-portfolio/mcmaps/overviewer.js'
     method: GET
     expectStatus: 200
     linkable: false
