@@ -25,9 +25,9 @@ monitors:
     linkable: true
 
   - id: main-cdn
-    name: CDN
+    name: cdn.demosjarco.dev
     description: 'Backblaze B2'
-    url: 'https://b2.demosjarco.dev/file/demosjarco-portfolio/mcmaps/overviewer.js'
+    url: 'https://cdn.demosjarco.dev/file/demosjarco-portfolio/mcmaps/overviewer.js'
     method: GET
     expectStatus: 200
     linkable: false
