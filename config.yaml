@@ -21,7 +21,7 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: false
-    linkable: false
+    linkable: true
 
   - id: main-cdn
     name: CDN - Backblaze B2
