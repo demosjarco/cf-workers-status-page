@@ -17,6 +17,7 @@ settings:
 monitors:
   - id: main-site
     name: Homepage
+    description: 'AWS US West (Oregon)'
     url: 'https://demosjarco.dev/'
     method: GET
     expectStatus: 200
@@ -24,14 +25,16 @@ monitors:
     linkable: true
 
   - id: main-cdn
-    name: CDN - Backblaze B2
+    name: CDN
+    description: 'Backblaze B2'
     url: 'https://b2.demosjarco.dev/file/demosjarco-portfolio/mcmaps/overviewer.js'
     method: GET
     expectStatus: 200
     linkable: false
-
+  
   # - id: fdb-extension
   #   name: FDB Extension
+  #   description: 'AWS US West (Oregon)'
   #   url: 'https://missions.fortnitedb.com/video-component.html'
   #   method: GET
   #   expectStatus: 200
@@ -39,13 +42,15 @@ monitors:
   
   # - id: fdb-extension-backend
   #   name: FDB Extension Backend
+  #   description: 'AWS US West (Oregon)'
   #   url: 'https://missions.fortnitedb.com/socket.io/?EIO=4&transport=websocket'
   #   method: GET
   #   expectStatus: 400
   #   linkable: false
   
   # - id: fdb-extension-cdn
-  #   name: FDB Extension CDN - Backblaze B2
+  #   name: FDB Extension CDN
+  #   description: 'Backblaze B2'
   #   url: 'https://b2.fortnitedb.com/file/PeepoT/a.png'
   #   method: GET
   #   expectStatus: 200
