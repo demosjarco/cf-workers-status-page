@@ -27,7 +27,7 @@ monitors:
   - id: main-cdn
     name: cdn.demosjarco.dev
     description: 'Backblaze B2'
-    url: 'https://cdn.demosjarco.dev/file/demosjarco-portfolio/mcmaps/overviewer.js'
+    url: 'https://cdn.demosjarco.dev/file/demosjarco-portfolio/images/logo.svg'
     method: GET
     expectStatus: 200
     linkable: false
