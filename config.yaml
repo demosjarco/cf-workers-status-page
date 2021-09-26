@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: main-site
-    name: Homepage
+    name: demosjarco.dev
     description: 'AWS US West (Oregon)'
     url: 'https://demosjarco.dev/'
     method: GET
